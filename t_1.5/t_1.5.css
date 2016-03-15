@@ -1,0 +1,161 @@
+body{
+	padding:0px;
+	margin:0px;
+	float:left;
+	background-color:#D6D6D6;
+	font-size: 15px;
+}
+/*设置头部的css样式*/
+.header{
+	width: 100%;
+	height: 54px;
+	background-color: #262626;	
+}
+.header img{
+	padding: 5px 35px;
+} 
+.header ul{
+	float: right;
+}
+
+.header ul li{
+	width:60px;
+	margin: 5px 12px;
+	float: left;
+}
+.header ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	color: white;
+}
+.header ul>li:last-child a{
+	padding-right: 10px;
+	color: #787E86;
+}
+.header ul li a:hover{
+	text-decoration: underline;
+}
+
+
+/*把四篇文章放入同一个盒子模型之中*/
+.left-container{
+	float: left;
+	width: 70%;
+}
+/*四篇文章的布局设置*/
+.article{
+	margin: 22px;
+	padding: 28px;
+	border-radius: 5px;
+	line-height: 21px;
+	box-shadow: 3px 3px 3px #787E86;
+	/*兼容fireFox、chrome、Safari*/
+	-webkit-box-shadow: 3px 3px 3px #787E86;
+	-moz-box-shadow: 3px 3px 3px #787E86;
+	background-color: white;
+}
+/*控制相应段落缩进*/
+.suojin{
+	text-indent: 2em;
+}
+.article h4{
+	color: #787E86;
+}
+.article span{
+	font-size: 6px;
+}
+
+.article ul{
+	list-style: none;
+}
+
+#article3 ul li{
+	width: 120px;
+	border: 1px solid red;
+	margin: 15px;
+	text-align: center;
+}
+#article3 ul li img{
+	width: 90%;
+}
+#article4 span{
+	font-size: 15px;
+	font-weight: bold;
+}
+.article table{
+	width: 100%;
+}
+.article table th{
+	background-color: black;
+	color: white;
+}
+.article table tr:last-child td{
+	background-color: #787E86;
+	font-weight: bold;
+}
+
+/*设置侧边栏样式*/
+.sidebar{
+	float: left;
+	width: 27%;
+	height: 80%;
+	margin: 10px;
+	padding: 5px;
+	
+	border-radius: 5px;
+	line-height: 21px;
+	box-shadow: 3px 3px 3px #787E86;
+	/*兼容fireFox、chrome、Safari*/
+	-webkit-box-shadow: 3px 3px 3px #787E86;
+	-moz-box-shadow: 3px 3px 3px #787E86;
+	background-color: white;
+}
+.sidebar h3{
+	padding: 5px 10px;
+	margin-left: 10px;
+		border-left: 3px solid #787E86;
+	
+}
+.sidebar form{
+	margin:5px auto;
+	width: 100%;
+	font-size: 10px;
+
+}
+
+.sidebar form label{
+	width: 100px;
+	text-align: right;
+	float: left;
+	padding-right: 10px;
+}
+
+.sidebar textarea{
+	width: 60%;
+	height: 100px;
+}
+.sidebar input:last-child{
+	width: 95%;
+	height: 50px;
+	background: #2437C9;
+	border-radius: 8px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+}
+/*设置提醒文字样式*/
+.tips{
+	font-size: 10px;
+	margin-left: 32%;
+	color: #787E86;
+}
+
+/*设置底部样式*/
+.footer{
+	height: 10%;
+	padding: 3px;
+	clear: both;
+	background-color: black;
+	text-align: center;
+	color:white;
+}
